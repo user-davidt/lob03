@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Introduction to basic HTML Form elements">
+    <meta name="keywords" content="HTML, Form, tags">
+    <meta name="author" content="David Tucker">
+    <title>HTML example form</title>
+</head>
+
+<body>
+    <img src="swin_logo.png" alt="Swinburne University of Technology logo">
+    <h1>CWA Helpdesk Appointment</h1>
+    <p>
+        The Help Desk is located in ATC620. Open 10:30 to 19:00 Monday to Friday
+    </p>
+    <p>
+        Check the Blackboard for when the CWA Tutors will be there
+    </p>
+    <p>
+    <fieldset>
+        <legend>Student Details</legend>
+        <p>
+            <label for="student_id">Student ID</label>
+            <input type="number" name="student_id" id="student_id" required="required">
+        </p>
+        <p>
+            <label for="given_name">Given Name</label>
+            <input type="text" name="given_name" id="given_name" required="required">
+
+            <label for="family_name">Family Name</label>
+            <input type="text" name="family_name" id="family_name" required="required">
+
+        </p>
+
+    </fieldset>
+    </p>
+    <p>
+    <fieldset>
+        <legend>Your unit</legend>
+        <p><label for="cos10011">COS10011</label>
+            <input type="radio" id="cos10011" name="unit" value="cos10011">
+            <label for="cos60004">COS60004</label>
+            <input type="radio" id="cos60004" name="unit" value="cos60004">
+            <label for="cos60007">COS60007</label>
+            <input type="radio" id="cos60007" name="unit" value="cos60007">
+        </p>
+        <p><label for="tutor">Your Tutor</label>
+            <select name="tutor" id="tutor" required="required">
+                <option value="">Please</option>
+                <option value="bob">Bob</option>
+                <option value="edward">Edward</option>
+                
+            </select>
+        </p>
+
+
+    </fieldset>
+    <p>
+        <fieldset>
+            <legend> Issue</legend>
+        </fieldset>
+    </p>
+    </p>
+
+</body>
